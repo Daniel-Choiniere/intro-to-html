@@ -6,14 +6,17 @@
     
             body {
                 background-color: lightgray;
+                background-image: url("http://skately.com/img/library/logos/large/zero-skateboards.png");
+                background-position: center;
+                background-attachment: fixed;
             }
             header {
                 background-color: black;
-                border-radius: 20%;
+                border-radius: 25%;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                width: 80%;
+                width: 90%;
             }
             h1 {
                 color: #c60b31;
@@ -24,6 +27,14 @@
                 margin-top: -20px;
                 font-family: monospace;
             }
+            h4 {
+                color: black;
+                margin-bottom: 1;
+                background-color: white;
+                width: 200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
             img {
                 cursor: crosshair;
                 display: block;
@@ -31,8 +42,17 @@
                 margin-right: auto;
                 width: 50%;
             }
+            
+            ul{
+                font-weight: bold;
+                color: red;
+                margin-top: -80;            }
+            p {
+                background-color: white;
+                color: red;
+            }
             form {
-                background-color: lightgray;
+                background-color: black;
                 text-align: center;
                 cursor: pointer;
             }
@@ -44,7 +64,15 @@
                 margin:0 auto;
                 text-align:left;
             }
-            
+            .fade {
+                opacity: 1;
+                transition: opacity .25s ease-in-out;
+                -moz-transition: opacity .25s ease-in-out;
+                -webkit-transition: opacity .25s ease-in-out;
+            }
+            #fb-link {
+                color: green;
+            }
         </style>
     </head>
     <body>
@@ -61,16 +89,24 @@
                         <li>OG Rail Thrasher</li>
                         <li>"Leap of Faith"</li>
                     </ul>
-                    <form action="https://www.facebook.com/jamiethomasofficial/?fb_dtsg_ag=Adx5J_5_0mQyHBj2HfjKrOeZ8S3EAQmx4dW6eyeXxQGfug%3AAdwj7_9CP6njDSzZHhB1ebKedNGsVqopT1zi4DD1TKkVuQ">
-                        <input type="submit" value="Check out Jamie's Facebook!"/>
-                    </form>
+                 </div>
+            
+                <div>
                 </div>
                 <p>&emsp;Jamie Thomas (born October 11, 1974) is an American professional 
                 skateboarder and skateboard industry entrepreneur. Thomas is the owner and 
                 founder of Zero Skateboards and Fallen Footwear, until he announced its 
-                closure in January 2017. Thomas' nickname in the skateboard industry is The Chief.
-                </p>
-        <footer><a href="https://en.wikipedia.org/wiki/Jamie_Thomas">Vist the Jamie Thomas Wikipedia page</a></footer>
+                closure in January 2017. Thomas' nickname in the skateboard industry is The Chief.</p>
+               </div>
+               <div>
+                   <a class = "fb-link" href= "https://www.facebook.com/jamiethomasofficial/">Check Jamie Out On Facebook!</a>
+                   <br>
+                   <a class = "fb-link" href= "https://en.wikipedia.org/wiki/Jamie_Thomas">Vist the Jamie Thomas Wikipedia page</a>
+                   <br>
+                   <a class = "fb-link" href= "https://www.instagram.com/jamiethomas/?hl=en">Jamie Thomas also rocks a Insta!</a>
+               </div>
+               
     </body>
 </html>
     
+
